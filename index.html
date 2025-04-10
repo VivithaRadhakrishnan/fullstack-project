@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <form action="#" method="post">
+        <div class="myForm">
+            <h1>Registration Form</h1>
+            <hr>
+        <label for="fname-label">First Name</label>
+        <input type="text" id="fname" placeholder="Enter your first name">
+        <label for="lname-label">Last Name</label>
+        <input type="text" id="lname" placeholder="Enter your last name"><br>
+        <label for="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter your email id">
+        <label for="myAddress1">Address</label>
+        <input type="text" id="myAddress1" placeholder="Enter your address">
+        <label for="myAddress2">Address line2</label>
+        <input type="text" id="myAddress2" placeholder="Enter your address"><br>
+        <label for="myAddress3">city/state</label>
+        <input type="text" id="myAddress3" placeholder="Enter your address">
+        <label for="myAddress4">postal code</label>
+        <input type="text" id="myAddress4" placeholder="Enter your pincode"><br> 
+        <div class="myGender-class">
+            <label for="myGender">Gender : </label>
+            <span class="myGender-Span">
+                <input type="radio" id="male" name="myGender">
+                <label for="myGender">Male</label>
+                <input type="radio" id="female" name="myGender">
+                <label for="myGender">Female</label>
+            </span>
+            <label id="myAge-label">Age </label>
+            <select name="" id="myAge" name="myAge-label" required>
+                <option value="age20">20</option>
+                <option value="age21">21</option>
+                <option value="age22">22</option>
+                <option value="age23">23</option>
+                <option value="age24">24</option>
+                <option value="age25">25</option>
+            </select><br>
+        <div class="myGames-class">
+            <span>
+                <!-- file input is here -->
+             <input type="file" id="myFile">
+            </span>
+            <label for="myGame-label">Games : </label>
+        <!-- <span class="myGames-Span"> -->
+            <input type="checkbox" id="myGame1">
+            <span id="myGame1-label">Tennis</span><br>
+            <input type="checkbox" id="myGame2">
+            <span id="myGame2-label">Football</span><br>
+            <input type="checkbox" id="myGame3">
+            <span id="myGame3-label">Throwball</span><br>
+            <input type="checkbox" id="myGame4">
+            <span id="myGame4-label">Tennikoit</span><br>
+        <!-- </span> -->
+        </div>
+        <!-- /<input type="textarea" id="myTextArea" wrap="soft"> -->
+        <button>Clickme</button><!-- src is for pasting the url -->
+        <button>Reset</button>
+        <button>Submit</button>
+    </div>    
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
